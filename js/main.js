@@ -1,5 +1,5 @@
 var carousel = document.querySelector(".carousel")
-var slides = document.querySelectorAll('.slide');
+var slides = document.querySelectorAll(".slide");
 var indicators = document.querySelectorAll(".indicator");
 var btnPlayPause = document.querySelector("#pause");
 var btnNext = document.querySelector("#next");
@@ -105,10 +105,5 @@ btnNext.addEventListener("click", clickNext);
 btnPrev.addEventListener("click", clickPrev);
 indicatorContainer.addEventListener("click", indicatorTo);
 document.addEventListener("keydown", pressKey);
-carousel.addEventListener('touchstart', swipeStart);
-carousel.addEventListener('touchend', swipeEnd);
-
-
-
-
-
+carousel.addEventListener("touchstart", swipeStart);
+carousel.addEventListener("touchend", swipeEnd);
