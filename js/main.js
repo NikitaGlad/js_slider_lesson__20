@@ -22,11 +22,11 @@ function roll (n){
     if(n === undefined){
         n = currentSlide + 1;
     }
-    slides[currentSlide].classList.toggle('active');
-    indicators[currentSlide].classList.toggle('active');
+    slides[currentSlide].classList.toggle("active");
+    indicators[currentSlide].classList.toggle("active");
     currentSlide = (n + slides.length) % slides.length;
-    slides[currentSlide].classList.toggle('active');
-    indicators[currentSlide].classList.toggle('active');
+    slides[currentSlide].classList.toggle("active");
+    indicators[currentSlide].classList.toggle("active");
 }
 
 
